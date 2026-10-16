@@ -1,15 +1,18 @@
 # 每日造型彩妝師 · Daily Style Studio
 
-單檔靜態網站，依場合、氛圍、天氣與勾選限制提供規則式妝容與穿搭建議。
+靜態每日穿搭與彩妝工作室。依場合、天氣與限制提供規則式建議，並以已查核精選內容作日期穩定輪換；不是自動即時新聞。
 
-## 使用
+網站：https://emmalian17.github.io/daily-style-studio/
 
-開啟網站，選擇臺灣縣市與日期，查詢 Open-Meteo 天氣或採用手填天氣，接著確認需求、挑選與調整造型。
+## 使用與資料
 
-收藏與回饋只儲存在目前瀏覽器，不會同步到雲端。天氣查詢會將所選城市代表座標與日期送至 Open-Meteo；不需要 API 金鑰。
+- 臺灣 22 縣市 Open-Meteo 預報，也可手填天氣。
+- 確認需求、三套提案、局部調整、準備清單、收藏與回饋。
+- 收藏與回饋只留在目前瀏覽器，不上傳雲端。
+- 人物為 AI 生成攝影風格氛圍示意，非精確搭配結果；原文來源與影像說明見 [SOURCES.md](SOURCES.md)。
 
 ## 部署
 
-GitHub Pages：main 分支根目錄。網站無須建置；index.html 已包含樣式、程式及 SVG 插畫。
+GitHub Pages main/root，無須建置。保留 index.html、assets/ 與 SOURCES.md 的相對路徑；不需要 API 金鑰。
 
-天氣資料來源：Open-Meteo（CC BY 4.0）。
+天氣資料：Open-Meteo，CC BY 4.0。
